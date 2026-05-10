@@ -4,7 +4,6 @@
 - Install Java Development Kit (JDK 17).
 - Install SBT (Scala Build Tool) version 1.x.
 - Set JAVA_HOME environment variable to the JDK 17 path.
-- Place "-" in:
 
 2. HOW TO RUN THE SCRIPTS
 -------------------------
@@ -14,13 +13,13 @@ Open the terminal in the project root directory and run the following command
   sbt "runMain RetailPreprocessing"
   
 - To run RDD Analysis:
-  sbt ""
+  sbt "03_SQLOperations.scala"
 
 - To run SQL Analysis:
-  sbt ""
+  sbt "02_RDDOperations.scala"
 
 - To run Machine Learning:
-  sbt ""
+  sbt "04_MachineLearning.scala"
 
 3. SPARK VERSION & DEPENDENCIES
 -------------------------------
