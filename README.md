@@ -13,13 +13,13 @@ Open the terminal in the project root directory and run the following command
   sbt "runMain RetailPreprocessing"
   
 - To run RDD Analysis:
-  sbt "03_SQLOperations.scala"
+  sbt "runMain 03_SQLOperations.scala"
 
 - To run SQL Analysis:
-  sbt "02_RDDOperations.scala"
+  sbt "runMain 02_RDDOperations.scala"
 
 - To run Machine Learning:
-  sbt "04_MachineLearning.scala"
+  sbt "runMain 04_MachineLearning.scala"
 
 3. SPARK VERSION & DEPENDENCIES
 -------------------------------
